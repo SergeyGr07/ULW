@@ -4,12 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-"""sumary_line
 
-Keyword arguments:
-argument -- description
-Return: return_description
-"""
 # Load the .wav file
 y, sr = librosa.load('Whistlers.wav')
 
