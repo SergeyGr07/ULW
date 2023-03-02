@@ -16,6 +16,12 @@ librosa.display.specshow(D, y_axis='linear', x_axis='time', cmap='inferno')
 plt.colorbar(format='%+5.0f dB')
 plt.title('Power spectrogram')
 plt.show()
+"""sumary_line
+///comment
+Keyword arguments:
+argument -- description
+Return: return_description
+"""
 
 c = np.pi
 c += c+1
