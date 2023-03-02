@@ -3,6 +3,8 @@ import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+
 # Load the .wav file
 y, sr = librosa.load('Whistlers.wav')
 
@@ -17,6 +19,3 @@ plt.colorbar(format='%+5.0f dB')
 plt.title('Power spectrogram')
 plt.show()
 
-c = np.pi
-c += c+1
-print(c)
